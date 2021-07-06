@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+}
+
+.nav-wrapper {
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* nav left */
+.nav-wrapper > .nav-left > .logo img {
+    height: 30px;
+    width: 175px;
+    padding: 20px;
+}
+
+/* nav center */
+.nav-wrapper > .nav-center {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+.nav-wrapper > .nav-center > .nav-explore {
+    color: #f4de76;
+    padding: 0px 8px;
+    margin: -3px 0px;
+}
+
+.nav-wrapper > .nav-center > .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-wrapper > .nav-center > .nav-links > .nav-items {
+    padding: 0px 8px;
+}
+
+.nav-wrapper > .nav-center > .nav-links > .nav-spark {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    padding: 0px 8px;
+}
+
+.nav-wrapper > .nav-center > .nav-links > .nav-spark > .nav-link-icon {
+    padding: 0px 12px;
+}
+
+/* nav right */
+.nav-wrapper > .nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 21px;
+}
+
+.nav-wrapper > .nav-right > .create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36383f;
+    border-width: 90px;
+    border-radius: 3px;
+    padding: 4px 30px 4px 30px;
+}
+
+.nav-wrapper > .nav-right > .create-button > .nav-link-icon {
+    color: #49c877;
+}
+
+.nav-wrapper > .nav-right > .search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+    font-size: 2.5rem;
+    color: #7b7e8b;
+}
+
+.nav-wrapper > .nav-right > .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-wrapper > .nav-right > .nav-buttons > .log-in-button {
+    background-color: #36383f;
+    border-width: 90px;
+    border-radius: 3px;
+    padding: 20px 30px 20px 30px;
+    margin-right: 10px;
+}
+
+.nav-wrapper > .nav-right > .nav-buttons > .sign-up-button {
+    background-color: #36383f;
+    border-width: 90px;
+    border-radius: 3px;
+    padding: 20px 30px 20px 30px;
+    margin-left: 10px;
+}
+
+/* Body */
+
+.body-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    background-color: #40444e;
+
+}
+
+.body-wrapper > .body-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.body-wrapper > .body-left > .text-paragraphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-wrapper > .body-left > .text-paragraphs > .paragraph1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 3.5rem;
+    padding: 20px;
+}
+
+.body-wrapper > .body-left > .text-paragraphs > .paragraph2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #aeb0ae;
+    font-size: 3.5rem;
+    padding: 20px;
+}
+
+.body-wrapper > .body-left > .body-buttons {
+
+    
+}
+
+.body-wrapper > .body-left > .body-buttons > .button-left {
+
+    
+}
+
+.body-wrapper > .body-left > .body-buttons > .button-right {
+
+    
+}
+
+.body-wrapper > .body-right > .body-right-image img {
+    height: 100%;
+    width: 820px;
+}
+
+.body-wrapper > .body-right > .body-right-text b{
+    display: flex;
+    align-items: center;
+}
+
+.body-wrapper > .body-right > .body-right-text {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.body-wrapper > .body-right > .body-right-text p{
+    color: #6fc6dd;
+    padding: 3px;
+    margin: 0px;
+}
+
+/* .footer {
+    display: flex;
+    justify-content: space-between;
+    border: solid #5f5f60;
+
+} */
+
+.footer > .codepen {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > .codepen > .bruh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #5f5f60;
+    background-color: #3c3d43;
+
+}
+
+.footer > .codepen > .bruh p {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+}
